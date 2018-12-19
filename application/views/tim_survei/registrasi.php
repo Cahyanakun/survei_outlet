@@ -55,7 +55,7 @@
               </div>
                
               <div>
-                <button class="btn btn-primary submit" type="submit" name="submit" value="Submit">Log in</button>
+                <button class="btn btn-primary submit" type="submit" name="submit" value="Submit">Register</button>
                 <a class="reset_pass" href="<?= base_url()?>lost_admin">Lupa Password?</a>
               </div>
 

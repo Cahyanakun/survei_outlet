@@ -45,7 +45,7 @@
           <div class="col-md-6">
           <table class="table table-striped table-responsive table-bordered nowrap dt-responsive">
               <?php
-                 foreach ($query->result() as $key) :
+                 foreach ($query as $key) :
                ?>
                <tr>
                 <td>Hasil Keseluruhan Survei Bulan <?= $key->tanggal; ?> </td>

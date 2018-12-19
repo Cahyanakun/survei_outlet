@@ -159,7 +159,7 @@ class Member extends CI_Controller {
 		$data['jk'] 		= $get->jk;
 		$data['telp'] 		= $get->telp;
 		$data['alamat'] 		= $get->alamat;
-		$data['tanggal'] 		= $get->tanggal_member;
+		$data['tanggal'] 		= $get->tanggal;
 
 		$sql = "select jn.* from (select @f_id_member := $uid p) parm, jumlah_nilai jn";
 		$data['query'] = $this->db->query($sql);
